@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     var textarea = document.querySelector('.term');
-    var text = 'sh site_aliafzali.sh';
+    var text = 'sh website_afzali.sh';
     var speed = 50; // Vitesse de frappe en ms
     var i = 0;
   
