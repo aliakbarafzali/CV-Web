@@ -5,13 +5,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Web d'Ali AFZALI</title>
     <link rel="stylesheet" href="./styles.css">
-    <link rel="" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+
 </head>
 <body>
-    <div class="load">
-        <pre class="term">ali@afzali:~$ </pre>
-      </div>
+    
 
-      <script src="./script.js"></script>
+    <header class="header">
+        <a href="#" class="logo"><span>Ali Afzali</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <button class="visit-btn">Visit Github</button>
+    </header> 
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="photo.png" alt="Pic">
+
+            <div class="info-box">
+                <div class="text">
+                    <h3>Bonjour, je suis</h3>
+                    <h1>Ali Afzali</h1>
+                    <span>Ingénieur informatique</span>
+                </div>
+            
+
+                <div class="btn-group">
+                    <div class="btn">Télécharger mon CV</div>
+                    <div class="btn">Contact</div>
+                </div>
+
+                <div class="socials">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Consultant fonctionnel</span>
+                    <h3>2024</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam molestias quaerat magni similique assumenda expedita esse? Rerum deserunt dolorum excepturi, corporis accusantium unde aliquam suscipit beatae, sunt earum adipisci voluptates.</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Ingénieur informatique industriel (MES, GMAO)</span>
+                    <h3>2023 - 2024</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam molestias quaerat magni similique assumenda expedita esse? Rerum deserunt dolorum excepturi, corporis accusantium unde aliquam suscipit beatae, sunt earum adipisci voluptates.</p>
+                </div>
+
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Développeur backend</span>
+                    <h3>Octobre 2022 - Février 2024 (stage)</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam molestias quaerat magni similique assumenda expedita esse? Rerum deserunt dolorum excepturi, corporis accusantium unde aliquam suscipit beatae, sunt earum adipisci voluptates.</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>AM Digital</span>
+                    <h3> Depuis 2020 </h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam molestias quaerat magni similique assumenda expedita esse? Rerum deserunt dolorum excepturi, corporis accusantium unde aliquam suscipit beatae, sunt earum adipisci voluptates.</p>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+
+        <h2 class="section-title">Recents Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="projects-card">
+                <img src="python.jpg" alt="">
+                <h3>Project X</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, nesciunt quae, optio doloribus rem sed eius modi animi velit corporis tenetur perferendis tempore itaque iure natus temporibus nihil ducimus ipsa!</p>
+                 <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                 </div>
+            </div>
+
+            <div class="projects-card">
+                <img src="" alt="">
+                <h3>Project Z</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, nesciunt quae, optio doloribus rem sed eius modi animi velit corporis tenetur perferendis tempore itaque iure natus temporibus nihil ducimus ipsa!</p>
+                 <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="input-box">
+            <h2 class="section-title">Me contacter</h2>
+
+            <div class="input">
+                <input type="text" placeholder="example@hotmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="btn">Submit</div>
+        </div>
+    </section>
+
+    <footer>
+
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+        </ul>
+        <p class ="copyright">All rights reserved to Ali</p>
+    </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
