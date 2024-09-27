@@ -13,19 +13,23 @@
     
 
     <header class="header">
-        <a href="#" class="logo"><span>Ali Afzali</span></a>
+        <a href="#about" class="logo"><span>ALI</span></a>
 
         <ul class="nav-links">
             <li>
-                <a href="#about">About</a>
+                <a href="#experience">Expérience</a>
             </li>
 
             <li>
-                <a href="#experience">Experience</a>
+                <a href="#timeline">Formations</a>
             </li>
 
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#projects">Projets</a>
+            </li>
+
+            <li>
+                <a href="#">Moi</a>
             </li>
 
             <li>
@@ -35,7 +39,8 @@
 
         <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-        <button class="visit-btn">Visit Github</button>
+        <button class="visit-btn" onclick="window.open('https://github.com/', '_blank')">Mon Github</button>
+
     </header> 
 
     <section id="about" class="about">
@@ -51,8 +56,9 @@
             
 
                 <div class="btn-group">
-                    <div class="btn">Télécharger mon CV</div>
-                    <div class="btn">Contact</div>
+                    <div class="btn" onclick="window.location.href='aaaa.pdf'">Télécharger mon CV</div>
+                    <div class="btn" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">Contact</div>
+
                 </div>
 
                 <div class="socials">
@@ -71,14 +77,14 @@
         <div class="experience-info">
             <div class="grid">
                 <div class="grid-card">
-                    <i class="fa-solid fa-code"></i>
+                    <img src="https://www.documation.fr/logo/31561462b6b52eceverial_logo_quadri_300dpi.png" alt="Développeur backend" class="grid-card-image">
                     <span>Consultant fonctionnel</span>
                     <h3>2024</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam molestias quaerat magni similique assumenda expedita esse? Rerum deserunt dolorum excepturi, corporis accusantium unde aliquam suscipit beatae, sunt earum adipisci voluptates.</p>
                 </div>
 
                 <div class="grid-card">
-                    <i class="fa-solid fa-code"></i>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxhU7io4rZMH5jgPcVVqGgaRBcuhkj1CitCQ&s" alt="Développeur backend" class="grid-card-image">
                     <span>Ingénieur informatique industriel (MES, GMAO)</span>
                     <h3>2023 - 2024</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam molestias quaerat magni similique assumenda expedita esse? Rerum deserunt dolorum excepturi, corporis accusantium unde aliquam suscipit beatae, sunt earum adipisci voluptates.</p>
@@ -86,14 +92,14 @@
 
 
                 <div class="grid-card">
-                    <i class="fa-solid fa-code"></i>
+                    <img src="https://aepv.asso.fr/wp-content/uploads/membres/logo-xefi-positif-couleur.png" alt="Développeur backend" class="grid-card-image">
                     <span>Développeur backend</span>
                     <h3>Octobre 2022 - Février 2024 (stage)</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam molestias quaerat magni similique assumenda expedita esse? Rerum deserunt dolorum excepturi, corporis accusantium unde aliquam suscipit beatae, sunt earum adipisci voluptates.</p>
                 </div>
 
                 <div class="grid-card">
-                    <i class="fa-solid fa-code"></i>
+                    <img src="https://aepv.asso.fr/wp-content/uploads/membres/logo-xefi-positif-couleur.png" alt="Développeur backend" class="grid-card-image">
                     <span>AM Digital</span>
                     <h3> Depuis 2020 </h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam molestias quaerat magni similique assumenda expedita esse? Rerum deserunt dolorum excepturi, corporis accusantium unde aliquam suscipit beatae, sunt earum adipisci voluptates.</p>
@@ -129,6 +135,111 @@
             </div>
         </div>
     </section>
+
+    <section class="timeline" id="timeline">
+        <h2 class="section-title">Formations</h2>
+        <ul>
+          <li>
+            <div>
+              <time>2017 - 2020</time> <p>Lycée Albert Camus <br>Bac S Sciences de l'Ingénieur Mention Bien</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <time>2020 - 2021</time> <p>INSA Strasbourg <br> 1ère année de prépa intégrée <br> Filière sports études : membre du pôle france de Taekwondo</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <time>2021 - 2023</time><p>IUT Lyon 1 <br> DUT Informatique</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <time>2023 - 2026</time><p>CESI Lyon <br> Diplôme d'ingénieur en informatique généraliste <br> Cursus en alternance </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <h2 class="section-title">Compétences</h2>
+    
+        <!-- Web Development Skills -->
+        <div class="skills-category">
+            <h3>Développement web</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="HTML Logo">
+                </div>
+                <div class="skill-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/544px-CSS3_logo_and_wordmark.svg.png" alt="CSS Logo">
+                </div>
+                <div class="skill-item">
+                    <img src="https://i1.wp.com/www.keesmel.com/wp-content/uploads/2020/09/js-logo.png?fit=500%2C500" alt="JavaScript Logo">
+                </div>
+                <div class="skill-item">
+                    <img src="https://www.cdnlogo.com/logos/p/71/php.svg" alt="PHP Logo">
+                </div>
+                <div class="skill-item">
+                    <img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" alt="Laravel Logo">
+                </div>
+            </div>
+        </div>
+    
+        <!-- Software Development Skills -->
+        <div class="skills-category">
+            <h3>Développement logiciel</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python Logo">
+                </div>
+                <div class="skill-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSR8XcTnu-0iQiXSaMq1sD9tYTxiC4mwrljA&s" alt="Java Logo">
+                </div>
+                <div class="skill-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1200px-Logo_C_sharp.svg.png" alt="C# Logo">
+                </div>
+            </div>
+        </div>
+    
+        <!-- SQL and Databases Skills -->
+        <div class="skills-category">
+            <h3>SQL & Bases de données</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz_4bkOdrJ38q7ryKEojTe7aTr5M88cLaEgQ&s" alt="MySQL Logo">
+                </div>
+                <div class="skill-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/1024px-Oracle_logo.svg.png" alt="PostgreSQL Logo">
+                </div>
+                <div class="skill-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/640px-Postgresql_elephant.svg.png" alt="MongoDB Logo">
+                </div>
+                <div class="skill-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/TalendLogoCoral.png" alt="MongoDB Logo">
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h3>Devops</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png" alt="Azure Logo">
+                </div>
+                <div class="skill-item">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png" alt="PostgreSQL Logo">
+                </div>
+                <div class="skill-item">
+                    <img src="https://blog.lecacheur.com/wp-content/uploads/2014/10/git_logo.png" alt="MongoDB Logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
 
     <section class="contact" id="contact">
         <div class="input-box">
