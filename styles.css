@@ -138,11 +138,18 @@ section{
   font-weight: 600;
 }
 
-.info-box span{
+.info-box span {
   background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157, 255));
   background-clip: text;
   color: transparent;
   font-size: 2rem;
+}
+
+.info-box p {
+  background: black;
+  background-clip: text;
+  color: transparent;
+  font-size: 1rem;
 }
 
 .btn-group{
@@ -760,6 +767,6 @@ time {
   footer ul{
     gap: 1rem;
   }
-
+  
   
 }
